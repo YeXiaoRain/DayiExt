@@ -8,10 +8,15 @@
    },
    "content_scripts": [ {
       "all_frames": true,
+      "matches": [ "http://dayi.im/teacher/*","http://dayi.im/weixin/chat/*"],
+      "js": ["static/js/jquery.js","static/js/repair.js"],
+      "run_at": "document_end"
+   },{
+      "all_frames": true,
       "matches": [ "http://dayi.im/q/workbench/*"],
       "js": ["static/js/jquery.js","static/js/content.js" ],
       "run_at": "document_end"
-   } ],
+   }],
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://s3.amazonaws.com; object-src 'self'",
    "description": "Write for dayi.im(Edit by YeXiaoRain)",
    "icons": {
@@ -22,5 +27,5 @@
    "manifest_version": 2,
    "name": "Dayi Ext",
    "permissions": [ "tabs", "activeTab", "http://dayi.im/q/workbench/*" ],
-   "version": "0.2"
+   "version": "0.3"
 }
