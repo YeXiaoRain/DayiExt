@@ -1,3 +1,4 @@
+//grab by mousemove
 var i;
 var claimlist=$('.claim_question_btn');
 var claimlen=claimlist.length;
@@ -20,6 +21,28 @@ for(i=0;i<claimlen;i++){
 		*/
 	}
 }
+//grab by keydown
+//1~9:49~57:0~8
+document.onkeydown=function(event){
+	var e = event || window.event || arguments.callee.caller.arguments[0];
+	if(e){
+		var keynum=e.keyCode;
+		if(keynum<49 || keynum>57)
+			return;
+		}
+		keynum-=49;
+		console.log(keynum);
+		console.log("keydown:"+keynum);
+		var quelist=$('.claim_question_btn');
+		var quenum=quelist.length;
+		if(keynum>=quenum)
+			return ;
+		//console.log("grabquestion:"+keynum);
+		quelist[keynum].click();
+		$('#answer_time_20')[0].click();
+		$('#sure_claim_btn')[0].click();
+};
+
 //appoint
 var appointlist=$('.accept_appoint_btn');
 var appointlen=appointlist.length;

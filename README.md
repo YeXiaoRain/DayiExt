@@ -1,6 +1,11 @@
 # DayiExt
 A chrome extension for dayi.im
 
+* [Usage](#usage)
+* [Fuction](#fuction)
+* [Download](#download)
+* [Reference](#reference)
+
 ---
 
 ##Usage:
@@ -21,19 +26,21 @@ A chrome extension for dayi.im
 
 `快速抢题`移到button上就能抢题
 
+`快速按键抢题`1对应第一题 2对应第二题... 只映射了1~9
+
 预约的`快速接受`和`快速拒绝`
 
 修复网站的一些错误链接
 
 ---
 
-##此处代码打包下载:
+##Download
 
 [Click here](https://github.com/YeXiaoRain/DayiExt/archive/master.zip)
 
 ---
 
-##参考
+##Reference
 
 [Page Refresh](https://chrome.google.com/webstore/detail/page-refresh/hmooaemjmediafeacjplpbpenjnpcneg?utm_source=chrome-app-launcher-info-dialog)
 
