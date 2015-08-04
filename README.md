@@ -2,7 +2,7 @@
 A chrome extension for dayi.im
 
 * [Usage](#usage)
-* [Fuction](#fuction)
+* [Function](#function)
 * [Download](#download)
 * [Reference](#reference)
 
@@ -20,7 +20,7 @@ A chrome extension for dayi.im
 
 ---
 
-##Fuction:
+##Function:
 
 按图标开始刷新(我想把这改成按键刷新 但是在content里获取了按键不知到怎么传递信息 求腿带飞)
 
