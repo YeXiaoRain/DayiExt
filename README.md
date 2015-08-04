@@ -24,6 +24,7 @@ A chrome extension for dayi.im
 预约的`快速接受`和`快速拒绝`
 
 修复网站的一些错误链接
+
 ---
 
 ##此处代码打包下载:
