@@ -8,7 +8,7 @@
    },
    "content_scripts": [ {
       "all_frames": true,
-      "matches": [ "http://dayi.im/teacher/*","http://dayi.im/weixin/chat/*"],
+      "matches": [ "http://dayi.im/teacher/*","http://dayi.im/weixin/chat/*","http://dayi.im/q/t/*"],
       "js": ["static/js/jquery.js","static/js/repair.js"],
       "run_at": "document_end"
    },{

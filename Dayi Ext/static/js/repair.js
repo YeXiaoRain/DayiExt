@@ -4,6 +4,7 @@ all path:
 need repair
 dayi.im/teacher/teacherid
 dayi.im/weixin/chat/studentid
+dayi.im/q/t/teacherid
 
 don't need
 dayi.im/q/teacher/teacherid
