@@ -1,3 +1,23 @@
+/*
+//grab if exist
+var i;
+var claimlist=$('.claim_question_btn');
+var claimlen=claimlist.length;
+for(i=0;i<claimlen;i++){
+	claimlist[i].click();
+	$('#answer_time_20')[0].click();
+	$('#sure_claim_btn')[0].click();
+}
+//or
+//grab if exist
+var claimlist=$('.claim_question_btn');
+if(claimlist.length!=0){
+	claimlist[0].click();
+	$('#answer_time_20')[0].click();
+	$('#sure_claim_btn')[0].click();
+}
+*/
+
 //grab by mousemove
 var i;
 var claimlist=$('.claim_question_btn');
