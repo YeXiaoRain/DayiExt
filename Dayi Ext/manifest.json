@@ -27,5 +27,5 @@
    "manifest_version": 2,
    "name": "Dayi Ext",
    "permissions": [ "tabs", "activeTab", "http://dayi.im/q/workbench/*" ],
-   "version": "0.4"
+   "version": "0.4.1"
 }

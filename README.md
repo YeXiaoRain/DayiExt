@@ -32,6 +32,8 @@ A chrome extension for dayi.im
 
 修复网站的一些错误链接
 
+限制了图片的高度
+
 ---
 
 ##Download

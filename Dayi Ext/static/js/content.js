@@ -64,6 +64,9 @@ for(i=0;i<appointrefuselen;i++){
 	}
 }
 
+//restrict picture height
+$('.q_main [data-target]').css('max-height','400px');
+
 //haven't add
 //$('#response_evaluation_content').val('加油～');
 //$('#response_evaluation_btn').click();
