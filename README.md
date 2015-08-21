@@ -34,6 +34,8 @@ A chrome extension for dayi.im
 
 限制了图片的高度
 
+不同价钱的题目不同的标题颜色
+
 ---
 
 ##Download

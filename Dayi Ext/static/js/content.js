@@ -87,6 +87,43 @@ for(i=0;i<appointrefuselen;i++){
 //restrict picture height
 $('.q_main [data-target]').css('max-height','400px');
 
+//change color with different price
+var questionblocklist = $('.question_block_show');
+var qbllen = questionblocklist.length;
+for (i = 0; i < qbllen; i++) {
+    var eachblock = questionblocklist[i];
+    var money = $(eachblock).find('.answer_fee_span').text();
+    var colorlist = ['#225599', 'black', '#EF8F00', '#FD1400', '#00EF2E', '#006B15', 'red', 'red', 'red', 'red'];
+    var colorid = 0;
+    if (money == '1.5元') {
+        colorid = 1;
+    } else if (money == '2.0元' || money == '2元') {//bug???
+        colorid = 2;
+    } else if (money == '2.5元') {
+        colorid = 3;
+    } else if (money == '3.0元' || money == '3元') {
+        colorid = 4;
+    } else if (money == '3.5元') {
+        colorid = 5;
+    } else if (money == '4.0元' || money == '4元') {
+        colorid = 6;
+    } else if (money == '4.5元') {
+        colorid = 7;
+    } else if (money == '5.0元' || money == '5元') {
+        colorid = 8;
+    } else if (money == '5.5元') {
+        colorid = 9;
+    }
+    $(eachblock).find('.question_id_show').css('color', colorlist[colorid]);
+	//$(eachblock).find('img').remove();
+    //console.log(colorid + '+' + money);
+}
+
+/*
+//var questionblocklist = $('.question_block_show');
+$(questionblocklist[0]).find('.bottom_btn');
+*/
+
 //haven't add
 //$('#response_evaluation_content').val('加油～');
 //$('#response_evaluation_btn').click();
