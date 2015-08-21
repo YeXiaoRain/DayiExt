@@ -44,7 +44,7 @@ A chrome extension for dayi.im
 
 ---
 
-##Reference
+##References
 
 [Page Refresh](https://chrome.google.com/webstore/detail/page-refresh/hmooaemjmediafeacjplpbpenjnpcneg?utm_source=chrome-app-launcher-info-dialog)
 
