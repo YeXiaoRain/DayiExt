@@ -4,7 +4,7 @@ A chrome extension for dayi.im
 * [Usage](#usage)
 * [Function](#function)
 * [Download](#download)
-* [Reference](#reference)
+* [References](#references)
 
 ---
 
