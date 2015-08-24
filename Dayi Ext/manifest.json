@@ -8,13 +8,18 @@
    },
    "content_scripts": [ {
       "all_frames": true,
-      "matches": [ "http://dayi.im/teacher/*","http://dayi.im/weixin/chat/*","http://dayi.im/q/t/*"],
+      "matches": [ "http://dayi.im/teacher/msg/","http://dayi.im/teacher/*","http://dayi.im/weixin/chat/*","http://dayi.im/q/t/*"],
       "js": ["static/js/jquery.js","static/js/repair.js"],
       "run_at": "document_end"
    },{
       "all_frames": true,
       "matches": [ "http://dayi.im/q/workbench/*"],
       "js": ["static/js/jquery.js","static/js/content.js" ],
+      "run_at": "document_end"
+   },{
+      "all_frames": true,
+      "matches": [ "http://dayi.im/q/detail/*"],
+      "js": ["static/js/jquery.js","static/js/autoresponse.js" ],
       "run_at": "document_end"
    }],
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://s3.amazonaws.com; object-src 'self'",
@@ -27,5 +32,5 @@
    "manifest_version": 2,
    "name": "Dayi Ext",
    "permissions": [ "tabs", "activeTab", "http://dayi.im/q/workbench/*" ],
-   "version": "0.4.3"
+   "version": "0.4.4"
 }

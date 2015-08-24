@@ -93,7 +93,7 @@ var qbllen = questionblocklist.length;
 for (i = 0; i < qbllen; i++) {
     var eachblock = questionblocklist[i];
     var money = $(eachblock).find('.answer_fee_span').text();
-    var colorlist = ['#225599', 'black', '#EF8F00', '#FD1400', '#00EF2E', '#006B15', 'red', 'red', 'red', 'red'];
+    var colorlist = ['#225599', 'black', '#EF8F00', 'rgb(16, 105, 16)', '#00EF2E', '#006B15', 'red', 'red', 'red', 'red'];
     var colorid = 0;
     if (money == '1.5元') {
         colorid = 1;

@@ -36,6 +36,8 @@ A chrome extension for dayi.im
 
 不同价钱的题目不同的标题颜色
 
+自动填充回复评价框
+
 ---
 
 ##Download

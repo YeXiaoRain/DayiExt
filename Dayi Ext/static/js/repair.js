@@ -17,8 +17,8 @@ dayi.im/stat/teacher/work_list
 var hreflist;
 var i,maxi;
 
-// change /q/qid or /q/qid/ --> /q/detail/qid
-var qpath=/^\/q\/\d+\/?$/;//question path
+// change /q/qid or /q/qid/ or /q/qid?from_msg=true--> /q/detail/qid
+var qpath=/^\/q\/\d+\/?(\?from_msg=true)?$/;//question path
 hreflist=$("[href^='\/q\/']");
 maxi=hreflist.length;
 for(i=0;i<maxi;i++){

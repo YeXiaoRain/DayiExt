@@ -1,0 +1,1 @@
+﻿$('#response_evaluation_content').text("加油~");
